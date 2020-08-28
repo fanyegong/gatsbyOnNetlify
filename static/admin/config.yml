@@ -13,7 +13,7 @@ collections: # 收藏集，CMS 的侧边栏分类
     folder: src/markdown-pages
     create: true  # 允许新增
     fields: # 编辑文件时，需要填写的数据，会将其放在 frontmatter 中
-      - { name: path, label: Path, required: false }
+      - { name: slug, label: Path, required: true }
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
       - { name: tags, label: Tags,  widget: list}

@@ -1,4 +1,5 @@
 ---
+slug: "/blog/my-online-post"
 date: 2020-08-28T06:36:26.895Z
 title: netify线上文章发布测试
 tags:
