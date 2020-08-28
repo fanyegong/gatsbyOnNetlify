@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: <username>/<repo>
+  repo: fanyegong/gatsbyOnNetlify
 
 media_folder: static/assets # 媒体文件，一般是图片的存储路径
 public_folder: assets # 媒体文件夹名称
@@ -10,7 +10,7 @@ display_url: https://your-website.cn # CMS 上展示一个指向你的网站的 
 collections: # 收藏集，CMS 的侧边栏分类
   - name: blog
     label: Blog
-    folder: src/posts
+    folder: src/markdown-pages
     create: true  # 允许新增
     fields: # 编辑文件时，需要填写的数据，会将其放在 frontmatter 中
       - { name: path, label: Path, required: false }
